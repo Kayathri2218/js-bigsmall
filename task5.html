@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta content="width=dives-width, initial-scale=1.0">
+    <title>task 5</title>
+</head>
+	
+<body>
+    <script>
+        
+        //Array bigest number
+
+        document.write('<br>');
+
+        var arr = [3, 6, 2, 56, 32, 5, 89.9, -9];
+        var big = arr[0];
+        var small = arr[0];
+
+        for (var i = 0; i < arr.length; i++) {
+            if (big < arr[i]) {
+                big = arr[i];
+            }
+            else if(small > arr[i]){
+                small = arr[i];
+            }
+			else{
+				document.write("flase");
+			}
+        }
+        document.write("bigest number");
+        document.write('<br>');
+        document.write(big);
+
+        document.write('<br>');
+
+        document.write('<br>');
+        document.write("small number");
+        document.write('<br>');
+        document.write(small);
+		
+		
+		
+		
+    </script>
+</body>
+
+</html>
